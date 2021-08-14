@@ -1,0 +1,651 @@
+<html lang="en" ng-app="crossBridges" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl-carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl-carousel-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>CROSS BRIDGES</title>
+  </head>
+  <body ng-controller="crossBridgesCtrl" class="ng-scope">
+    
+  <div class="wrapper" data-spy="scroll" data-target="#home">
+  		
+  		<div class="navbar navbar-inverse navbar-fixed-top navbar-custom top-nav-collapse" role="navigation">
+		 <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="small-logo-container" style="margin-top:5px;">
+		        <a class="small-logo" style="font-size:30px;font-weight:bold;margin-top:15px;margin-left:10px;" href="#home"><img src="https://crossbridges.in/images/logo_crossbrides.jpg" style="width: 60px;"></a>
+		      </div>
+		    </div>
+		    <div class="navbar-collapse collapse">
+		      
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a class="page-scroll active" href="#top">Home</a></li>
+		        <li><a class="page-scroll" href="#about">About</a></li>
+		        <li><a class="page-scroll" href="#services">Service</a></li>
+		        <li><a class="page-scroll" href="#team">Team</a></li>
+		        <li><a class="page-scroll" href="#contact">Contact</a></li>
+		        <!-- <li><a class="page-scroll" href="#login">Login</a></li> -->
+		      </ul>
+		    </div><!--/.nav-collapse -->
+		  </div>
+		</div>	
+		
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+		      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+		      <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
+		    </ol>
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner" role="listbox">
+	
+		      	<div class="overlay"></div>
+		        <div class="carousel-caption container">
+					<div class="row">
+						<div class="col-sm-12" style="text-align:left;">
+							<h1 class="animated zoomIn delay-1s"> CROSS BRIDGES</h1>
+																 
+							<p class="animated zoomIn delay-1s"></p>
+						</div>
+					</div>
+				</div>
+		      </div>
+		      <div class="item active" style="background-image: url(https://th.bing.com/th/id/OIP.D6Ur5bxcLI5ckg4Kn18FLAHaE_?w=263&h=180&c=7&o=5&pid=1.7)">
+		      	 <div class="overlay"></div>
+		         <div class="carousel-caption container">
+					<div class="row">
+						<div class="col-sm-12" style="text-align:left;">
+							<h1 class="animated zoomIn delay-1s">CROSS BRIDGES</h1>
+																 
+							<p class="animated zoomIn delay-1s"></p>
+						</div>
+					</div>
+				</div>
+		      </div>
+		    
+		         <div class="carousel-caption container">
+					<div class="row">
+						<div class="col-sm-12" style="text-align:left;">
+							<h1 class="animated zoomIn delay-1s"></h1>
+																 
+							<p class="animated zoomIn delay-1s"></p>
+						</div>
+					</div>
+				</div>
+		      </div> 
+		    </div>   
+		</div>
+<!--
+		<div class="aboutus" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="owl-demo2" class="owl-carousel owl-theme" >
+							<div class="item" ng-repeat="data in jobList" ng-click="jobDetails(data)">
+							  <div class="job-event" > 
+									<h1 class="job-title">{{data.job_title}}</h1>
+									<h2 class="location">{{data.location}}, {{data.exp}}</h2>	
+									
+									<p class="desc">{{data.skills}}</p>			 
+									<p class="apply text-left"><a>Apply</a></p>			 
+							  </div>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	-->		
+		<div class="about section-padding" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="text-left">
+							<h2 class="header-text">Who are we</h2>
+						</div>
+						<br>
+						<br>
+						<p>
+						With a deep understanding of the mission critical needs of corporations, Cross Bridges recognizes the need for agility and influence in the eco system to produce results. Our customers often compliment us on our research capabilities and turn- around timelines.e.<br><br>
+							There was never a happier moment at cross bridges when a candidate said "I found a career counselor in Cross Bridges and not a mere Talent search firm"<br><br>
+							We value our strengths in the highly competitive Indian IT industry as a distinct advantage.<br><br>
+							Our mission is to be the "Best Indian Executive Search Firm".
+							<br><br>
+						
+						</p>
+					</div>
+					<div class="col-md-5">
+						<div class="text-left">
+							<h2 class="header-text">Our Expertise</h2>
+						</div>
+						<br><br>
+						<div class="focus-div">
+							<ul>
+								<li>
+									IT products companies
+								</li>
+								<li>
+									Healthcare (Including Software / Hardware / Medical Devices / Doctors / Researchers / Marketing / Product Development / Clinical Researchers etc)
+								</li>
+								<li>
+									Enabling Functions (HR / Finance &amp; Accounts / Corporate Communications / Marcom / Purchasing / Supply-Chain / Travel &amp; Immigrations / Mobility / Complete spectrum of M&amp;A)
+								</li>
+								<li>
+									Consumer Electronics and Telecom
+								</li>
+								<li>
+									Executive / Leadership Search – Senior Hiring
+								</li>
+							</ul>
+						</div>						
+					</div>
+				</div>
+			</div>	
+		</div>
+
+
+		<div class="services section-padding" id="services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-left">
+							<h2 class="header-text">Our Core Values</h2>
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="box-div text-center">
+							<i class="fa fa-bookmark"></i>
+							<h2 class="header-text-sm">Ethical</h2>
+							<p>
+								----------
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box-div text-center">
+							<i class="fa fa-bookmark"></i>
+							<h2 class="header-text-sm">Perseverance</h2>
+							<p>
+								----------
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box-div text-center">
+							<i class="fa fa-bookmark"></i>
+							<h2 class="header-text-sm">Quality</h2>
+							<p>
+								----------
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box-div text-center">
+							<i class="fa fa-bookmark"></i>
+							<h2 class="header-text-sm">Focus</h2>
+							<p>
+								----------
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="about-us section-padding">
+			<div class="container">
+				 
+				<div class="row">
+					<div class="col-md-7">
+						<div>
+							<div class="text-left">
+								<h2 class="header-text-sm margin-top-0" id="mity">We stand and strive by our mission to be “The Best Indian Executive Search Firm”</h2>
+								<div class="text-right" style="margin-right:22px;">- Anuradha Bharadwaj <img src="https://crossbridges.in/images/discussion.jpg"</div>
+							</div>
+							<br>
+							<p>
+								Our efforts in achieving customer goals is very well acknowledged, where customers often compliment us our research capabilities and turn- around timelines.  
+just a mere talent search firm”<br><br>
+								 Our efforts in achieving customer goals is very well acknowledged, where customers often compliment us our research capabilities and turn- around timelines.  Whilst our dedicated team continue to make efforts in your prosperity. </p>
+						</div>
+					</div>
+					<div class="col-md-5">
+						
+
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="team section-padding" id="team">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div>
+							<div class="header-text">
+                              <h1>Our Team</h1>			
+							</div>
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="team-member text-center">
+                            <div class="team-img">
+                                <img src="https://www.bing.com/th?id=OIP.-5MnxRhP7FhtxjcagYfT5AHaEp&w=222&h=160&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+                                <div class="overlay-team">
+                                    <div class="team-details text-center">
+                                        <div class="socials mt-20">
+                                            <a href="#">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-google-plus-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Bavana</h6>
+                            <span>Delivery Manager</span>
+                        </div>
+					</div>
+					<div class="col-md-3">
+						<div class="team-member text-center">
+                            <div class="team-img">
+                                <img src="" alt="">
+                                <div class="overlay-team">
+                                    <div class="team-details text-center">
+                                        <div class="socials mt-20">
+                                            <a href="#">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-google-plus-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Vicky</h6>
+                            <span>Client Manager</span>
+                        </div>
+					</div>
+					<div class="col-md-3">
+						<div class="team-member text-center">
+                            <div class="team-img">
+                                <img src="https://crossbridges.in/images/3.jpg" alt="">
+                                <div class="overlay-team">
+                                    <div class="team-details text-center">
+                                        <div class="socials mt-20">
+                                            <a href="#">
+                                                <i class="fab fa-facebook-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-google-plus-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Roopa</h6>
+                            <span>Client Manager</span>
+                        </div>
+					</div>
+					<div class="col-md-3">
+						<div class="team-member text-center">
+                            <div class="team-img">
+                                <img class="roopa" src="https://crossbridges.in/images/4.jpg" alt="">
+                                <div class="overlay-team">
+                                    <div class="team-details text-center">
+                                        <div class="socials mt-20">
+                                            <a href="#">
+                                                <i class="fab fa-facebook-square">
+													</i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-twitter-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fab fa-google-plus-square"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Usha</h6>
+                            <span>Sr. Recruiter</span>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+				
+ 	    	
+			<!-- <div class="client section-padding">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="text-left">
+								<h2 class="header-text">Our Team</h2>
+							</div>
+						</div>
+					</div>
+					<br><br>
+					<div class="row">
+						<div class="col-md-12">
+							<div id="owl-demo1" class="owl-carousel owl-theme" >
+								<div class="item">
+								  <div class="img-moment text-center"> 
+									<img src="images/1.jpg" >						 
+								  </div>
+								</div>
+								<div class="item">
+								  <div class="img-moment text-center">
+									<img src="images/2.jpg" >					 
+								  </div>
+								</div>
+								<div class="item">
+								  <div class="img-moment text-center">
+									<img src="images/3.jpg" >						 
+								  </div>
+								</div>
+								<div class="item">
+								  <div class="img-moment text-center"> 
+									<img src="images/4.jpg" >							 
+								  </div>
+								</div>
+								<div class="item">
+								  <div class="img-moment text-center">
+									<img src="images/5.jpg" >						 
+								  </div>
+								</div>
+								
+								</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			
+		<!--	
+			<div class="testimonial section-padding">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="text-center">
+								<h2 class="header-text">Testimonial</h2>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 testimonal-div">
+							<div id="testimonal" class="carousel slide" data-ride="carousel">
+								<!-- Carousel indicators -->
+		<!--						
+								<ol class="carousel-indicators">
+									<li data-target="#testimonal" data-slide-to="0" class="active"></li>
+									<li data-target="#testimonal" data-slide-to="1"></li>
+									<li data-target="#testimonal" data-slide-to="2"></li>
+								</ol>   
+								<!-- Wrapper for carousel items -->
+		<!--						<div class="carousel-inner">
+									<div class="item carousel-item active">
+										<!-- <div class="img-box"><img src="/examples/images/clients/1.jpg" alt=""></div> -->
+		<!--								<p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+										<p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+									</div>
+									<div class="item carousel-item">
+										<!-- <div class="img-box"><img src="/examples/images/clients/2.jpg" alt=""></div> -->
+		<!--								<p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+										<p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+									</div>
+									<div class="item carousel-item">
+										<!-- <div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div> -->
+		<!--								<p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+										<p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+									</div>
+								</div>
+								<!-- Carousel controls -->
+		<!--						<a class="carousel-control left carousel-control-prev" href="#testimonal" data-slide="prev">
+									<i class="fas fa-angle-left"></i>
+								</a>
+								<a class="carousel-control right carousel-control-next" href="#testimonal" data-slide="next">
+									<i class="fas fa-angle-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			-->
+
+			<div class="footer-div section-padding" id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="contact">
+								<h2 class="header-text">GET IN TOUCH WITH US</h2>
+								<p>
+									If you got any questions, please do not hesitate to send us a message. We reply within 24 hours!
+								</p>
+								<br><br>
+								<table class="contact-tbl">
+									<tbody><tr>
+										<td>
+											<i class="fab fa-accusoft"></i>
+										</td>
+										<td>
+											<div>
+												<h2 class="contact-header">Have any question?</h2>
+												<p>
+													office@crossbridges.in
+												</p>
+											</div>
+										</td>
+
+										<td>
+											<i class="fas fa-mobile-alt"></i>
+										</td>
+										<td>
+											<div>
+												<h2 class="contact-header">Call Us</h2>
+												<p>
+													080-26630038
+												</p>
+											</div>
+										</td>
+									</tr>
+								</tbody></table>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-4">
+							<div>
+								<br><br><br>
+								<form class="ng-pristine ng-valid">
+								  <div class="form-group">
+								    <input type="text" class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-model="formData.name" name="name" placeholder="Name">
+								  </div> 
+								  <div class="form-group">
+								    <input type="text" class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-model="formData.mobile" name="mobile" placeholder="Mobile Number">
+								  </div> 
+								  <div class="form-group">
+								    <input type="text" class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-model="formData.email" name="email" placeholder="Email">
+								  </div> 
+								  <div class="form-group">
+								    <textarea class="form-control ng-pristine ng-untouched ng-valid ng-empty" rows="3" ng-model="formData.message" name="message" placeholder="Message"></textarea>
+								  </div> 
+								  <button type="submit" id="sub-btn" data-loading-text="Loading..." ng-click="contactus(formData)" class="btn btn-default custom-btn">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			 
+			
+			<div class="mail-footer section-padding">
+				<div class="container09">
+					<div class="row">
+						<div class="col-md-4">
+							<div>
+								<h3>Quick Links</h3>
+								<ul class="mail">
+									<li><a href="#home">Home</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#services">Service</a></li>
+									<li><a href="#contact">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						 
+						<div class="col-md-4">
+							<div>
+								<h3>Social Links</h3>
+								<br>
+								<div class="social-icon">
+									<i class="fab fa-facebook-f"></i>
+									<i class="fab fa-youtube"></i>
+									<i class="fab fa-instagram"></i>
+									<i class="fab fa-linkedin-in"></i>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div>
+								<h3>Address</h3>
+								<p class="address">
+									<strong>Cross Bridges</strong><br>
+									52 IHS, LIC Colony,2nd Cross,<br>
+									3rd Main, 3rd Block East <br>
+									Jayanagar, Bangalore -500011<br>
+									
+									Phone: 080-26630038 <br>
+									Email: office@crossbridges.in
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="logo text-left">
+								crossbridges.in
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="text-right">
+								© 2021 crossbridges. All Rights Reserved.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+ 
+  </div>
+  
+	<div class="modal fade" id="jobdetail" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					<h4 class="modal-title" id="gridSystemModalLabel">Job Details</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="job-detail-box">
+								<div class="ng-binding"><strong>Job Title : </strong> </div>
+								<div class="ng-binding"><strong>Location : </strong> </div>
+								<div class="ng-binding"><strong>Experience : </strong> </div>
+								<div class="ng-binding"><strong>Skills : </strong> </div>
+								<div class="ng-binding"><strong>Description : </strong> </div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="job-apply">
+								<form class="ng-pristine ng-valid">
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="username" name="username" placeholder="Name" required=""> 
+								  </div> 
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required="">
+								  </div> 
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="email" name="email" placeholder="Email" required="">
+								  </div> 
+								  <div class="form-group">
+								    <textarea class="form-control" rows="3" id="skill" name="skill" placeholder="Key Skills/CTC/Notice Period" required=""></textarea>
+								  </div> 
+								  <div class="form-group">
+									<input type="file" id="resume" required="">
+								  </div>
+								  <br>
+								  <button type="submit" id="frmContact" data-loading-text="Loading..." class="btn btn-default custom-btn">Submit Resume</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+
+  	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="js/owl-carousel.js"></script>
+	<script src="js/script.js"></script>
+ 
+  
+</body></html>
